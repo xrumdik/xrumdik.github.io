@@ -20,7 +20,7 @@
   ]
 }
 </script>
-{{- else if (or .IsPage .IsSection) }}
+{{- else if (and (or .IsPage .IsSection) (not hugo.IsMultilingual)) }}
 {{/* BreadcrumbList */}}
 {{- $url := replace .Parent.Permalink ( printf "%s" site.Home.Permalink) "" }}
 {{- $lang_url := strings.TrimPrefix ( printf "%s/" .Lang) $url }}
