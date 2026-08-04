@@ -1,0 +1,132 @@
+baseURL = "https://USERNAME.github.io/"
+theme = "PaperMod"
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+
+[params]
+  env = "production"
+  DateFormat = "January 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = true
+  hidemeta = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[languages]
+
+  [languages.ru]
+    languageName = "Русский"
+    languageCode = "ru"
+    weight = 1
+    title = "Иван Иванов — Портфолио"
+
+    [languages.ru.params]
+      title = "Иван Иванов"
+      description = "Портфолио разработчика — проекты, навыки, контакты"
+      keywords = ["портфолио", "разработчик", "проекты"]
+      author = "Иван Иванов"
+
+      [languages.ru.params.homeInfoParams]
+        Title = "Привет, я Иван 👋"
+        Content = """
+Frontend/Backend-разработчик. Делаю сайты и веб-приложения на React и Go.
+Ниже — немного обо мне и подборка проектов, которые стоит посмотреть.
+"""
+
+      [[languages.ru.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/USERNAME"
+
+      [[languages.ru.params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/USERNAME"
+
+      [[languages.ru.params.socialIcons]]
+        name = "email"
+        url = "mailto:you@example.com"
+
+    [[languages.ru.menu.main]]
+      name = "Обо мне"
+      url = "/about/"
+      weight = 10
+
+    [[languages.ru.menu.main]]
+      name = "Проекты"
+      url = "/projects/"
+      weight = 20
+
+    [[languages.ru.menu.main]]
+      name = "Контакты"
+      url = "/contact/"
+      weight = 30
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 2
+    title = "Ivan Ivanov — Portfolio"
+
+    [languages.en.params]
+      title = "Ivan Ivanov"
+      description = "Developer portfolio — projects, skills, contact"
+      keywords = ["portfolio", "developer", "projects"]
+      author = "Ivan Ivanov"
+
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm Ivan 👋"
+        Content = """
+Frontend/Backend developer. I build websites and web apps with React and Go.
+Below is a bit about me and a selection of projects worth checking out.
+"""
+
+      [[languages.en.params.socialIcons]]
+        name = "github"
+        url = "https://github.com/USERNAME"
+
+      [[languages.en.params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/USERNAME"
+
+      [[languages.en.params.socialIcons]]
+        name = "email"
+        url = "mailto:you@example.com"
+
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/en/about/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      name = "Projects"
+      url = "/en/projects/"
+      weight = 20
+
+    [[languages.en.menu.main]]
+      name = "Contact"
+      url = "/en/contact/"
+      weight = 30
