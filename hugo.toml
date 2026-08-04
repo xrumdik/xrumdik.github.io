@@ -1,0 +1,76 @@
+baseURL = "https://USERNAME.github.io/"
+languageCode = "ru"
+title = "Иван Иванов — Портфолио"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+
+[params]
+  env = "production"
+  title = "Иван Иванов"
+  description = "Портфолио разработчика — проекты, навыки, контакты"
+  keywords = ["портфолио", "разработчик", "проекты"]
+  author = "Иван Иванов"
+  DateFormat = "January 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = true
+  hidemeta = true
+
+  [params.homeInfoParams]
+    Title = "Привет, я Иван 👋"
+    Content = """
+Frontend/Backend-разработчик. Делаю сайты и веб-приложения на React и Go.
+Ниже — немного обо мне и подборка проектов, которые стоит посмотреть.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/USERNAME"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/USERNAME"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:you@example.com"
+
+[[menu.main]]
+  name = "Обо мне"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Проекты"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  name = "Контакты"
+  url = "/contact/"
+  weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
