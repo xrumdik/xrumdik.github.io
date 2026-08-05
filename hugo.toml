@@ -44,12 +44,14 @@ buildExpired = false
     languageCode = "ru"
     weight = 1
     title = "Иван Иванов — Портфолио"
+    contentDir = "content/ru"
 
     [languages.ru.params]
       title = "Иван Иванов"
       description = "Портфолио разработчика — проекты, навыки, контакты"
       keywords = ["портфолио", "разработчик", "проекты"]
       author = "Иван Иванов"
+      mainSections = ["projects"]
 
       [languages.ru.params.homeInfoParams]
         Title = "Привет, я Иван 👋"
@@ -70,17 +72,17 @@ Frontend/Backend-разработчик. Делаю сайты и веб-при�
         name = "email"
         url = "mailto:you@example.com"
 
-    [[languages.ru.menu.main]]
+    [[languages.ru.menus.main]]
       name = "Обо мне"
       url = "/about/"
       weight = 10
 
-    [[languages.ru.menu.main]]
+    [[languages.ru.menus.main]]
       name = "Проекты"
       url = "/projects/"
       weight = 20
 
-    [[languages.ru.menu.main]]
+    [[languages.ru.menus.main]]
       name = "Контакты"
       url = "/contact/"
       weight = 30
@@ -90,12 +92,14 @@ Frontend/Backend-разработчик. Делаю сайты и веб-при�
     languageCode = "en"
     weight = 2
     title = "Ivan Ivanov — Portfolio"
+    contentDir = "content/en"
 
     [languages.en.params]
       title = "Ivan Ivanov"
       description = "Developer portfolio — projects, skills, contact"
       keywords = ["portfolio", "developer", "projects"]
       author = "Ivan Ivanov"
+      mainSections = ["projects"]
 
       [languages.en.params.homeInfoParams]
         Title = "Hi, I'm Ivan 👋"
@@ -116,17 +120,17 @@ Below is a bit about me and a selection of projects worth checking out.
         name = "email"
         url = "mailto:you@example.com"
 
-    [[languages.en.menu.main]]
+    [[languages.en.menus.main]]
       name = "About"
       url = "/en/about/"
       weight = 10
 
-    [[languages.en.menu.main]]
+    [[languages.en.menus.main]]
       name = "Projects"
       url = "/en/projects/"
       weight = 20
 
-    [[languages.en.menu.main]]
+    [[languages.en.menus.main]]
       name = "Contact"
       url = "/en/contact/"
       weight = 30
