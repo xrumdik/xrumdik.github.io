@@ -1,7 +1,7 @@
 ---
 title: "GLPI: От хаоса к прозрачному ITIL"
 date: 2026-08-10
-summary: "Внедрение Gestionnaire Libre de Parc Informatique."
+summary: "Управление ИТ Инфраструктурой."
 ---
 
 ## О проекте

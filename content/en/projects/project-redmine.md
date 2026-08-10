@@ -6,8 +6,6 @@ summary: "Project management systems. Document management."
 
 ## About the project
 
-# Redmine: Unified Management Center for Projects, Tasks, and Documentation
-
 Project management and corporate knowledge tracking often turn into a fragmented patchwork: tasks live in one app, timelines are drawn in another, while files and guidelines sit scattered across network drives.
 
 **Redmine** is a time-tested **Open Source** flexible project management and bug tracking system. Thanks to its modular architecture and ability to be deployed on-premise on Linux servers, Redmine easily scales from a basic task tracker into a full-featured enterprise ecosystem.
