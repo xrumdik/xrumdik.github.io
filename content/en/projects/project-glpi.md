@@ -6,8 +6,6 @@ summary: "IT Infrastructure Management."
 
 ## About the project
 
-# GLPI: From Chaos to Transparent ITIL
-
 Every IT department eventually faces growing pains. Requests from users get lost in instant messengers, emails, and phone calls. Asset tracking is maintained in fragmented Excel spreadsheets, and software compliance on workstations remains a mystery until the first audit.
 
 The way out of this chaos is transitioning to ITIL service management framework, and **GLPI (Gestionnaire Libre de Parc Informatique)** is the ideal tool for this. It is a powerful **Open Source** solution providing enterprise-grade functionality without expensive proprietary licenses. The entire system runs reliably on Linux, providing high stability and data security.
