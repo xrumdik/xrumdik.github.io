@@ -70,7 +70,7 @@ buildExpired = false
 
       [[languages.ru.params.socialIcons]]
         name = "email"
-        url = "mailto:ryabinin.andrei@gmail.com"
+        url = "mailto:andrey@ryabinin.pro"
 
     [[languages.ru.menus.main]]
       name = "Обо мне"
@@ -113,7 +113,7 @@ Below is a bit about me and a few case studies worth checking out.
 
       [[languages.en.params.socialIcons]]
         name = "email"
-        url = "mailto:ryabinin.andrei@gmail.com"
+        url = "mailto:andrey@ryabinin.pro"
 
     [[languages.en.menus.main]]
       name = "About"
