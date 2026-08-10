@@ -21,4 +21,8 @@ Ready for complex technical challenges, auditing current IT infrastructure, and 
 *   **⚙️ Automation & Version Control:** Bash, PowerShell, Ansible, Git, GitHub
 *   **💾 Backup & High Availability:** HA Clusters, Acronis, Proxmox Backup Server, Custom scripting
 
+## Certificates
 
+- [Akamai Network Engineering](https://coursera.org/verify/professional-cert/7F663DVPYJ92) — Akamai Technical Academy / Coursera, 2024
+- [IBM DevOps and Software Engineering](https://coursera.org/verify/professional-cert/FK636VZV60AM) — IBM / Coursera, 2024
+- [Fundamentals of Red Hat Enterprise Linux](https://coursera.org/verify/ZK7NR8EE226H) — Red Hat / Coursera, 2024

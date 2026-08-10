@@ -21,3 +21,8 @@ hidemeta: true
 *   **⚙️ Автоматизация и контроль версий:** Bash, PowerShell, Ansible, Git, GitHub
 *   **💾 Резервное копирование и отказоустойчивость:** High Availability (HA) кластеры, Acronis, Proxmox Backup Server, кастомные скрипты
 
+## Сертификаты
+
+- [Akamai Network Engineering](https://coursera.org/verify/professional-cert/7F663DVPYJ92) — Akamai Technical Academy / Coursera, 2024
+- [IBM DevOps and Software Engineering](https://coursera.org/verify/professional-cert/FK636VZV60AM) — IBM / Coursera, 2024
+- [Fundamentals of Red Hat Enterprise Linux](https://coursera.org/verify/ZK7NR8EE226H) — Red Hat / Coursera, 2024
