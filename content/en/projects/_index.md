@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Work"
 layout: "list"
 hidemeta: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Проекты"
+title: "Работа"
 layout: "list"
 hidemeta: true
 ---

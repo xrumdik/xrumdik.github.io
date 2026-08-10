@@ -78,14 +78,9 @@ Frontend/Backend-разработчик. Делаю сайты и веб-при�
       weight = 10
 
     [[languages.ru.menus.main]]
-      name = "Проекты"
+      name = "Работа"
       url = "/projects/"
       weight = 20
-
-    [[languages.ru.menus.main]]
-      name = "Контакты"
-      url = "/contact/"
-      weight = 30
 
   [languages.en]
     languageName = "English"
@@ -126,11 +121,6 @@ Below is a bit about me and a selection of projects worth checking out.
       weight = 10
 
     [[languages.en.menus.main]]
-      name = "Projects"
+      name = "Work"
       url = "/en/projects/"
       weight = 20
-
-    [[languages.en.menus.main]]
-      name = "Contact"
-      url = "/en/contact/"
-      weight = 30
