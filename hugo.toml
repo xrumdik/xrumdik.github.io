@@ -43,34 +43,34 @@ buildExpired = false
     languageName = "Русский"
     languageCode = "ru"
     weight = 1
-    title = "Иван Иванов — Портфолио"
+    title = "Андрей Рябинин — Портфолио"
     contentDir = "content/ru"
 
     [languages.ru.params]
-      title = "Иван Иванов"
-      description = "Портфолио разработчика — проекты, навыки, контакты"
+      title = "Андрей Рябинин"
+      description = "Портфолио системного администратора — проекты, навыки, контакты"
       keywords = ["портфолио", "разработчик", "проекты"]
-      author = "Иван Иванов"
+      author = "Андрей Рябинин"
       mainSections = ["projects"]
 
       [languages.ru.params.homeInfoParams]
-        Title = "Привет, я Иван 👋"
+        Title = "Привет, я Андрей 👋"
         Content = """
-Frontend/Backend-разработчик. Делаю сайты и веб-приложения на React и Go.
-Ниже — немного обо мне и подборка проектов, которые стоит посмотреть.
+Системный администратор. Поддерживаю IT-инфраструктуру, отвечаю за серверы, сети и бесперебойную работу сервисов.
+Ниже — немного обо мне и подборка кейсов, которые стоит посмотреть.
 """
 
       [[languages.ru.params.socialIcons]]
         name = "github"
-        url = "https://github.com/USERNAME"
+        url = "https://github.com/xrumdik"
 
       [[languages.ru.params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/USERNAME"
+        url = "https://www.linkedin.com/in/andrey-r-97491084/"
 
       [[languages.ru.params.socialIcons]]
         name = "email"
-        url = "mailto:you@example.com"
+        url = "mailto:ryabinin.andrei@gmail.com"
 
     [[languages.ru.menus.main]]
       name = "Обо мне"
@@ -86,34 +86,34 @@ Frontend/Backend-разработчик. Делаю сайты и веб-при�
     languageName = "English"
     languageCode = "en"
     weight = 2
-    title = "Ivan Ivanov — Portfolio"
+    title = "Andrey Ryabinin — Portfolio"
     contentDir = "content/en"
 
     [languages.en.params]
-      title = "Ivan Ivanov"
-      description = "Developer portfolio — projects, skills, contact"
+      title = "Andrey Ryabinin"
+      description = "System administrator portfolio — projects, skills, contact"
       keywords = ["portfolio", "developer", "projects"]
-      author = "Ivan Ivanov"
+      author = "Andrey Ryabinin"
       mainSections = ["projects"]
 
       [languages.en.params.homeInfoParams]
-        Title = "Hi, I'm Ivan 👋"
+        Title = "Hi, I'm Andrey 👋"
         Content = """
-Frontend/Backend developer. I build websites and web apps with React and Go.
-Below is a bit about me and a selection of projects worth checking out.
+System administrator. I maintain IT infrastructure, keep servers, networks, and services running reliably.
+Below is a bit about me and a few case studies worth checking out.
 """
 
       [[languages.en.params.socialIcons]]
         name = "github"
-        url = "https://github.com/USERNAME"
+        url = "https://github.com/xrumdik"
 
       [[languages.en.params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/USERNAME"
+        url = "https://www.linkedin.com/in/andrey-r-97491084/"
 
       [[languages.en.params.socialIcons]]
         name = "email"
-        url = "mailto:you@example.com"
+        url = "mailto:ryabinin.andrei@gmail.com"
 
     [[languages.en.menus.main]]
       name = "About"
