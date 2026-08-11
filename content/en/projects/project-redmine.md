@@ -47,4 +47,6 @@ To eliminate the need for downloading files locally every time edits are require
 
 ---
 
-**Summary:** Redmine is not just an issue tracker — it is a scalable platform that unifies project management (Gantt + Kanban), centralized domain authentication (AD), and a full corporate document archive complete with version control and online co-editing.
+## Summary: 
+
+Redmine is not just an issue tracker — it is a scalable platform that unifies project management (Gantt + Kanban), centralized domain authentication (AD), and a full corporate document archive complete with version control and online co-editing.

@@ -37,4 +37,6 @@ To prevent the system from becoming just another manual database, GLPI easily in
 * **Active Directory (AD) Integration:** No manual user creation required. GLPI syncs with your directory service. Employees authenticate via domain credentials (SSO), and access rights auto-update upon employee offboarding or role changes.
 * **Automated Data Collection:** Inventory happens automatically. You simply configure **GLPI Agent** deployment across Windows workstations using **Group Policy Objects (GPO)**. The agent installs silently on user PCs and regularly transmits detailed hardware and software audit data to the Linux server. No manual office walk-throughs or physical asset tag logging required.
 
-**Summary:** Implementing GLPI transforms the IT department from a reactive "firefighting team" into a proactive service unit. Chaos is replaced by measurable metrics, Excel spreadsheets become a thing of the past, and IT leadership receives a transparent tool to manage processes, budgets, and service quality.
+## Summary: 
+
+Implementing GLPI transforms the IT department from a reactive "firefighting team" into a proactive service unit. Chaos is replaced by measurable metrics, Excel spreadsheets become a thing of the past, and IT leadership receives a transparent tool to manage processes, budgets, and service quality.

@@ -53,7 +53,7 @@ services:
 
 Deploy the stack. Databasys will automatically connect to the specified database, generate a compressed dump, and store it on the secure Synology volume, while older archives are purged according to the retention policy.
 
-Conclusion:
+## Conclusion:
 Implementing Databasys via Docker is an elegant and reliable way to handle database backups.
 
 Autonomy: The container ships with all necessary dependencies and clients natively installed (pg_dump, mysqldump).
