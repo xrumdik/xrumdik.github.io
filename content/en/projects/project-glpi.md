@@ -11,6 +11,8 @@ Every IT department eventually faces growing pains. Requests from users get lost
 The way out of this chaos is transitioning to ITIL service management framework, and **GLPI (Gestionnaire Libre de Parc Informatique)** is the ideal tool for this. It is a powerful **Open Source** solution providing enterprise-grade functionality without expensive proprietary licenses. The entire system runs reliably on Linux, providing high stability and data security.
 The two main pillars of order in GLPI are a transparent Helpdesk and total asset control.
 
+---
+
 ## Unified Ticket Management System (Helpdesk)
 
 The first step toward ITIL is establishing a Single Point of Contact (SPOC). GLPI allows eliminating informal, "on-the-fly" requests and streamlining all support operations.
@@ -18,6 +20,8 @@ The first step toward ITIL is establishing a Single Point of Contact (SPOC). GLP
 * **Centralization:** All incidents and service requests are recorded in a single portal. Users track issue statuses, while engineers receive clearly defined tasks.
 * **Routing & SLA Control:** Tickets are automatically dispatched across support tiers. Service Level Agreements (SLA) are enforced — enabling precise tracking of response and resolution times.
 * **Knowledge Base:** An integrated Wiki allows accumulating experience and offering self-service guides for common issues (e.g., password resets, VPN setup).
+
+---
 
 ## Hardware & Software Inventory: Standardization
 
@@ -30,12 +34,16 @@ You get a complete picture:
 
 Helpdesk tickets link directly to specific hardware items, giving full visibility into the service and failure history of each device.
 
+---
+
 ## Integration and Automation: AD and GPO
 
 To prevent the system from becoming just another manual database, GLPI easily integrates into the corporate environment.
 
 * **Active Directory (AD) Integration:** No manual user creation required. GLPI syncs with your directory service. Employees authenticate via domain credentials (SSO), and access rights auto-update upon employee offboarding or role changes.
 * **Automated Data Collection:** Inventory happens automatically. You simply configure **GLPI Agent** deployment across Windows workstations using **Group Policy Objects (GPO)**. The agent installs silently on user PCs and regularly transmits detailed hardware and software audit data to the Linux server. No manual office walk-throughs or physical asset tag logging required.
+
+---
 
 ## Summary: 
 

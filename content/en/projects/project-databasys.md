@@ -10,6 +10,8 @@ A robust IT infrastructure is inconceivable without a solid Disaster Recovery st
 
 To solve this, I utilize **Databasys** — a dedicated **Open Source** solution for centralized database backups, specifically targeting **MySQL** and **PostgreSQL**. The tool is distributed as a Docker container, making its deployment highly predictable and entirely independent of the host operating system.
 
+---
+
 ## Why Synology NAS?
 
 The ideal location for storing database dumps is a dedicated Network Attached Storage (NAS) appliance, isolated from the primary compute nodes. **Synology** hardware fits this role perfectly due to its RAID support, Btrfs file system (with bit-rot protection), and native containerization capabilities.
@@ -52,6 +54,8 @@ services:
 ```
 
 Deploy the stack. Databasys will automatically connect to the specified database, generate a compressed dump, and store it on the secure Synology volume, while older archives are purged according to the retention policy.
+
+---
 
 ## Conclusion:
 Implementing Databasys via Docker is an elegant and reliable way to handle database backups.

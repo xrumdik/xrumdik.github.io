@@ -19,6 +19,8 @@ At the core of project management in Redmine is a combination of traditional and
 * **Gantt Chart (Built-in Feature):** Visually displays the project timeline, task dependencies (e.g., "Task B cannot start before Task A finishes"), milestones, and overall completion percentages. This is an essential tool for Waterfall planning and tracking schedule risks.
 * **Kanban Boards (Agile Plugins):** For teams following Scrum or Kanban, Redmine extends via dedicated plugins (such as *Redmine Agile*). This brings interactive drag-and-drop boards, customizable status columns, sprint visualization, and burndown charts.
 
+---
+
 ## 2. Seamless Active Directory (AD / LDAP) Integration
 
 Security and centralized access control are critical requirements for corporate software. Out of the box, Redmine supports authentication via **LDAP / Active Directory**.
@@ -26,6 +28,8 @@ Security and centralized access control are critical requirements for corporate 
 * **Single Sign-On (SSO):** Users do not need to memorize separate credentials — login is performed using domain accounts.
 * **Automatic Provisioning:** On the first login, Redmine queries AD for user details (Full Name, Email, Department) and automatically creates the profile.
 * **Role-Based Access Control:** Permissions are managed via granular roles within specific projects, preventing unauthorized data exposure.
+
+---
 
 ## 3. Comprehensive Document Management: DMSf Plugin
 
@@ -36,6 +40,8 @@ Key DMSf Features:
 * **File Locking (Lock/Unlock):** Ability to lock a file during editing to prevent accidental overwrites by teammates.
 * **Approval Workflows:** Configure multi-step document approval routes directly within the file card, capturing decisions from all stakeholders.
 * **Full-Text Search:** Content indexing across uploaded documents for fast keyword searching.
+
+---
 
 ## 4. Document Preview & Online Co-Editing
 

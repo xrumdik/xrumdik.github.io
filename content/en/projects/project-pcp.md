@@ -107,5 +107,7 @@ Here is an example of a clean, modern HTML template ready to be uploaded to pfSe
 </body>
 </html>
 ```
+---
+
 ## Conclusion
 Deploying a pfSense Captive Portal solves multiple business challenges at once. The corporate network becomes significantly more secure through Active Directory binding, eliminating the nightmare of changing a shared Wi-Fi password every time an employee departs. Simultaneously, the voucher-based guest network protects the company's bandwidth from unauthorized use by neighbors or passersby, while a beautifully branded login page enhances the company's professional image.
