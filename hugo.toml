@@ -43,7 +43,7 @@ buildExpired = false
     languageName = "Русский"
     languageCode = "ru"
     weight = 1
-    title = "Андрей Рябинин — Портфолио"
+    title = "Андрей Рябинин"
     contentDir = "content/ru"
 
     [languages.ru.params]
@@ -86,7 +86,7 @@ buildExpired = false
     languageName = "English"
     languageCode = "en"
     weight = 2
-    title = "Andrey Ryabinin — Portfolio"
+    title = "Andrey Ryabinin"
     contentDir = "content/en"
 
     [languages.en.params]
