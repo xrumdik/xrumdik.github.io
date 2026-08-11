@@ -26,3 +26,16 @@
         padding: 0 !important;
     }
 }
+
+/* Сокращаем расстояние между именем и меню на десктопе —
+   вместо разнесения по краям (space-between) сдвигаем меню
+   ближе к логотипу с фиксированным отступом. */
+@media screen and (min-width: 769px) {
+    .header-nav {
+        justify-content: flex-start !important;
+    }
+
+    .menu {
+        margin-left: 2.5rem !important;
+    }
+}
