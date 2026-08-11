@@ -1,12 +1,10 @@
 ---
 title: "pfSense: Configuring Captive Portal for Corporate and Guest Wi-Fi Networks."
 date: 2026-08-07
-summary: "Pfsense, Captive Portal, Wifi."
+summary: "Pfsense, Captive Portal, WiFi."
 ---
 
 ## About the project
-
-# pfSense: Configuring Captive Portal for Corporate and Guest Wi-Fi Networks
 
 Proper wireless network segmentation is a fundamental requirement for network security. Mixing employee and guest traffic is an unacceptable risk. The ideal solution is creating strictly isolated VLANs with their own dedicated authorization rules.
 

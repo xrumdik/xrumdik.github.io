@@ -1,7 +1,7 @@
 ---
 title: "pfSense: Настройка Captive Portal для корпоративной и гостевой Wi-Fi сетей."
 date: 2026-08-07
-summary: "Pfsense, Captive Portal, Wifi."
+summary: "Pfsense, Captive Portal, WiFi."
 ---
 
 ## О проекте
