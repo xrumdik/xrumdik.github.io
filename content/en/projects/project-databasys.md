@@ -1,6 +1,6 @@
 ---
 title: "Databasys: Automating Database Backups (MySQL, PostgreSQL)."
-date: 2026-08-11
+date: 2026-08-09
 summary: "Backup."
 ---
 
@@ -49,6 +49,7 @@ services:
       - RETENTION_DAYS=14       # Keep archives for 14 days
     volumes:
       - /volume1/docker/databasys/backups:/backups
+```
 
 Deploy the stack. Databasys will automatically connect to the specified database, generate a compressed dump, and store it on the secure Synology volume, while older archives are purged according to the retention policy.
 
