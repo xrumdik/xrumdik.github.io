@@ -11,15 +11,17 @@ Ready for complex technical challenges, auditing current IT infrastructure, and 
 ## Skills
 
 *   **🖥 Operating Systems:** Linux (Ubuntu, Debian, Rocky Linux), Windows Server
-*   **☁️ Virtualization & Containers:** Proxmox VE, VMware, Hyper-V, Docker
+*   **☁️ Virtualization:** Proxmox VE, VMware, Hyper-V
+    **🐳 Containerization and orchestration:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
+    **🔁 CI/CD and GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
 *   **🌐 Networking:** VLAN segmentation, Aruba HPE, Zyxel, VPN (OpenVPN/IPsec), pfSense, firewalld, UFW
-*   **🛡 Information Security:** DLP systems, CrowdSec, Fail2ban, Enterprise Endpoint Security (Kaspersky, Symantec)
-*   **🏗 Infrastructure:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI
+*   **🛡 Information Security:** DLP systems, CrowdSec, Fail2ban, Enterprise Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
+*   **🏗 Infrastructure:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI, NFS, FTP
 *   **🕸 Web Servers & Databases:** Nginx, Apache (LAMP / LEMP stacks), PostgreSQL, MySQL, MS SQL Server
 *   **🏢 Corporate Services (On-Premise):** Nextcloud, Mailcow, Mattermost
 *   **📊 Monitoring:** Zabbix, Grafana, Prometheus
 *   **⚙️ Automation & Version Control:** Bash, PowerShell, Ansible, Git, GitHub
-*   **💾 Backup & High Availability:** HA Clusters, Acronis, Proxmox Backup Server, Custom scripting
+*   **💾 Backup & High Availability:** HA Clusters, Acronis, Veeam, Proxmox Backup Server, Custom scripting
 
 ## Certificates
 

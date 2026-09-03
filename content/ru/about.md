@@ -11,15 +11,17 @@ hidemeta: true
 ## Навыки
 
 *   **🖥 Операционные системы:** Linux (Ubuntu, Debian, Rocky Linux), Windows Server
-*   **☁️ Виртуализация и контейнеры:** Proxmox VE, VMware, Hyper-V, Docker
+*   **☁️ Виртуализация:** Proxmox VE, VMware, Hyper-V
+    **🐳 Контейнеризация и оркестрация:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
+    **🔁 CI/CD и GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
 *   **🌐 Сети:** Сегментация VLAN, Aruba HPE, Zyxel, VPN (OpenVPN/IPsec), pfSense, firewalld, UFW
-*   **🛡 Информационная безопасность:** DLP-системы, CrowdSec, Fail2ban, Корпоративные решения Endpoint Security (Kaspersky, Symantec)
-*   **🏗 Инфраструктура:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI
+*   **🛡 Информационная безопасность:** DLP-системы, CrowdSec, Fail2ban, Корпоративные решения Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
+*   **🏗 Инфраструктура:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI, NFS, FTP
 *   **🕸 Web-серверы и СУБД:** Nginx, Apache (стеки LAMP / LEMP), PostgreSQL, MySQL, MS SQL Server
 *   **🏢 Корпоративные сервисы (On-Premise):** Nextcloud, Mailcow, Mattermost
 *   **📊 Мониторинг:** Zabbix, Grafana, Prometheus
 *   **⚙️ Автоматизация и контроль версий:** Bash, PowerShell, Ansible, Git, GitHub
-*   **💾 Резервное копирование и отказоустойчивость:** High Availability (HA) кластеры, Acronis, Proxmox Backup Server, кастомные скрипты
+*   **💾 Резервное копирование и отказоустойчивость:** High Availability (HA) кластеры, Acronis,Veeam, Proxmox Backup Server, кастомные скрипты
 
 ## Сертификаты
 
