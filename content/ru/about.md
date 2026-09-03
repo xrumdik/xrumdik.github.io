@@ -12,8 +12,8 @@ hidemeta: true
 
 *   **🖥 Операционные системы:** Linux (Ubuntu, Debian, Rocky Linux), Windows Server
 *   **☁️ Виртуализация:** Proxmox VE, VMware, Hyper-V
-    **🐳 Контейнеризация и оркестрация:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
-    **🔁 CI/CD и GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
+*   **🐳 Контейнеризация и оркестрация:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
+*   **🔁 CI/CD и GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
 *   **🌐 Сети:** Сегментация VLAN, Aruba HPE, Zyxel, VPN (OpenVPN/IPsec), pfSense, firewalld, UFW
 *   **🛡 Информационная безопасность:** DLP-системы, CrowdSec, Fail2ban, Корпоративные решения Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
 *   **🏗 Инфраструктура:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI, NFS, FTP
