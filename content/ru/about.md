@@ -21,7 +21,7 @@ hidemeta: true
 *   **🏢 Корпоративные сервисы (On-Premise):** Nextcloud, Mailcow, Mattermost
 *   **📊 Мониторинг:** Zabbix, Grafana, Prometheus
 *   **⚙️ Автоматизация и контроль версий:** Bash, PowerShell, Ansible, Git, GitHub
-*   **💾 Резервное копирование и отказоустойчивость:** High Availability (HA) кластеры, Acronis,Veeam, Proxmox Backup Server, кастомные скрипты
+*   **💾 Резервное копирование и отказоустойчивость:** High Availability (HA) кластеры, Acronis, Veeam, Proxmox Backup Server, кастомные скрипты
 
 ## Сертификаты
 
