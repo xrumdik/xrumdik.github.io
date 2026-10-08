@@ -82,6 +82,11 @@ buildExpired = false
       url = "/projects/"
       weight = 20
 
+    [[languages.ru.menus.main]]
+      name = "Отдых"
+      url = "/rest/"
+      weight = 30   
+
   [languages.en]
     languageName = "English"
     languageCode = "en"
@@ -124,3 +129,8 @@ Below is a bit about me and a few case studies worth checking out.
       name = "Work"
       url = "/en/projects/"
       weight = 20
+      
+    [[languages.en.menus.main]]
+      name = "Hobbies"
+      url = "/en/rest/"
+      weight = 30

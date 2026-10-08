@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+<figure class="rest-video">
+  <video controls preload="metadata" playsinline{{ with .Get "poster" }} poster="{{ . }}"{{ end }}>
+    <source src="{{ $src }}" type="video/{{ .Get "type" | default "mp4" }}">
+    Ваш браузер не поддерживает воспроизведение видео. / Your browser does not support video.
+  </video>
+  {{- with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>

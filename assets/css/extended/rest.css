@@ -1,0 +1,43 @@
+/* Страница «Отдых»: фото, видео */
+.rest-photo,
+.rest-video {
+    margin: 1.5rem 0;
+}
+
+.rest-photo img,
+.rest-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.rest-photo figcaption,
+.rest-video figcaption {
+    margin-top: .4rem;
+    font-size: .85rem;
+    color: var(--secondary);
+}
+
+/* Галерея: сетка фото, на телефоне 2 колонки, на ПК 3 */
+.rest-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75rem;
+    margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 769px) {
+    .rest-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.rest-gallery .rest-photo {
+    margin: 0;
+}
+
+.rest-gallery .rest-photo img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
