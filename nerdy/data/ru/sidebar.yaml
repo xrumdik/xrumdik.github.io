@@ -7,19 +7,19 @@ profile:
     label: Статус
     value: Открыт к сотрудничеству
     preference_label: Формат
-    preference: удалённо / аудит инфраструктуры
+    preference: офис,удалённо, аудит и настройка инфраструктуры
   links:
   - icon: website
-    label: ryabinin.pro
+    label: Website
     url: https://ryabinin.pro/
   - icon: github
-    label: github.com/xrumdik
+    label: Github
     url: https://github.com/xrumdik
   - icon: linkedin
-    label: linkedin.com/in/andrey-r-97491084
+    label: linkedin
     url: https://www.linkedin.com/in/andrey-r-97491084/
   - icon: mail
-    label: andrey@ryabinin.pro
+    label: Mail
     url: mailto:andrey@ryabinin.pro
 sections:
 - id: profile-stats
@@ -30,25 +30,25 @@ sections:
     value: On-Premise
     accent: emerald
   - label: Платформа
-    value: Linux
+    value: Windows,Linux
     accent: cyan
   - label: Подход
-    value: Автоматизация
+    value: Контроль,автоматизация
     accent: amber
   - label: Безопасность
-    value: Сегментация и аудит
+    value: Патч-менеджмент
     accent: purple
 - id: core-stack
   type: tags
-  title: Основной стек
+  title: Направления
   items:
   - Linux
-  - Docker
-  - Kubernetes
-  - Proxmox
-  - Ansible
-  - Zabbix
-  - Nginx
-  - PostgreSQL
-  - pfSense
-  - Mailcow
+  - Windows Server
+  - Виртуализация
+  - Контейнеры
+  - Сети и VPN
+  - Мониторинг
+  - Резервное копирование
+  - Автоматизация
+  - Почтовые сервисы
+  - Базы данных

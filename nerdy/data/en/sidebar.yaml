@@ -7,19 +7,19 @@ profile:
     label: Status
     value: Open to collaboration
     preference_label: Format
-    preference: remote / infrastructure audit
+    preference: office, remote, infrastructure audit and configuration
   links:
   - icon: website
-    label: ryabinin.pro
+    label: Website
     url: https://ryabinin.pro/en/
   - icon: github
-    label: github.com/xrumdik
+    label: Github
     url: https://github.com/xrumdik
   - icon: linkedin
-    label: linkedin.com/in/andrey-r-97491084
+    label: linkedin
     url: https://www.linkedin.com/in/andrey-r-97491084/
   - icon: mail
-    label: andrey@ryabinin.pro
+    label: Mail
     url: mailto:andrey@ryabinin.pro
 sections:
 - id: profile-stats
@@ -30,25 +30,25 @@ sections:
     value: On-Premise
     accent: emerald
   - label: Platform
-    value: Linux
+    value: Windows, Linux
     accent: cyan
   - label: Approach
-    value: Automation
+    value: Control, automation
     accent: amber
   - label: Security
-    value: Segmentation & audit
+    value: Patch management
     accent: purple
 - id: core-stack
   type: tags
-  title: Core Stack
+  title: Focus areas
   items:
   - Linux
-  - Docker
-  - Kubernetes
-  - Proxmox
-  - Ansible
-  - Zabbix
-  - Nginx
-  - PostgreSQL
-  - pfSense
-  - Mailcow
+  - Windows Server
+  - Virtualization
+  - Containers
+  - Networking & VPN
+  - Monitoring
+  - Backup
+  - Automation
+  - Email services
+  - Databases
