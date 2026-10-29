@@ -5,6 +5,7 @@ quick: true
 weight: 50
 intro: Давайте обсудим вашу инфраструктуру.
 email: andrey@ryabinin.pro
+links:
 - label: Web
   text: https://ryabinin.pro/
   url: https://ryabinin.pro/

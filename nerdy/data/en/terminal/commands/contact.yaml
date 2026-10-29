@@ -5,7 +5,8 @@ quick: true
 weight: 50
 intro: Let's talk about your infrastructure.
 email: andrey@ryabinin.pro
+links:
 - label: Web
   text: https://ryabinin.pro/
-  url: https://ryabinin.pro/en/
+  url: https://ryabinin.pro/
 outro: Drop me a line or run the commands above to explore more.
