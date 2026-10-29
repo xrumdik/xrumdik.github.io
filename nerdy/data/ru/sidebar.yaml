@@ -7,7 +7,7 @@ profile:
     label: Статус
     value: Открыт к сотрудничеству
     preference_label: Формат
-    preference: офис,удалённо, аудит и настройка инфраструктуры
+    preference: офис, удалённо, аудит и настройка инфраструктуры
   links:
   - icon: website
     label: Website
