@@ -1,0 +1,18 @@
+name: contact
+label: Контакты
+description: Как со мной связаться
+quick: true
+weight: 50
+intro: Давайте обсудим вашу инфраструктуру.
+email: andrey@ryabinin.pro
+links:
+- label: GitHub
+  text: https://github.com/xrumdik
+  url: https://github.com/xrumdik
+- label: LinkedIn
+  text: linkedin.com/in/andrey-r-97491084
+  url: https://www.linkedin.com/in/andrey-r-97491084/
+- label: Web
+  text: https://ryabinin.pro/
+  url: https://ryabinin.pro/
+outro: Напишите мне или выполните команды выше, чтобы узнать больше.

@@ -1,0 +1,4 @@
+node_modules/
+hugo_stats.json
+resources/
+.hugo_build.lock

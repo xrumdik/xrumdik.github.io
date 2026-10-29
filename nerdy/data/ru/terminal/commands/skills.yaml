@@ -1,0 +1,84 @@
+name: skills
+label: Навыки
+description: Мой технический стек
+quick: true
+weight: 20
+categories:
+- key: os
+  items:
+  - Linux (Ubuntu, Debian, Rocky Linux)
+  - Windows Server
+- key: virtualization
+  items:
+  - Proxmox VE
+  - VMware
+  - Hyper-V
+- key: containers
+  items:
+  - Docker
+  - containerd
+  - Kubernetes
+  - Calico
+  - Helm
+- key: cicd
+  items:
+  - GitHub Actions
+  - Argo CD
+  - Kustomize
+- key: networking
+  items:
+  - VLAN
+  - Aruba HPE
+  - Zyxel
+  - OpenVPN/IPsec
+  - pfSense
+  - firewalld
+  - UFW
+- key: security
+  items:
+  - DLP
+  - CrowdSec
+  - Fail2ban
+  - Kaspersky
+  - Symantec
+  - Trivy
+  - CodeQL
+- key: infrastructure
+  items:
+  - Active Directory
+  - DNS
+  - DHCP
+  - GPO
+  - WSUS
+  - RADIUS
+  - PKI
+  - NFS
+- key: web_db
+  items:
+  - Nginx
+  - Apache
+  - PostgreSQL
+  - MySQL
+  - MS SQL Server
+- key: services
+  items:
+  - Nextcloud
+  - Mailcow
+  - Mattermost
+- key: monitoring
+  items:
+  - Zabbix
+  - Grafana
+  - Prometheus
+- key: automation
+  items:
+  - Bash
+  - PowerShell
+  - Ansible
+  - Git
+- key: backup
+  items:
+  - HA-кластеры
+  - Acronis
+  - Veeam
+  - Proxmox Backup Server

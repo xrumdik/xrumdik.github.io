@@ -22,7 +22,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.9
+      # Тема Nerdy требует Hugo 0.162.1+, поэтому обе версии сайта собираются одним Hugo
+      HUGO_VERSION: 0.162.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -35,17 +36,43 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: 24
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Hugo
+      # 1. Основная версия сайта (PaperMod) -> public/
+      - name: Build with Hugo (PaperMod)
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           hugo \
             --minify
+
+      # 2. Вторая версия (Nerdy): RU -> public/nerdy/, EN -> public/en/nerdy/
+      - name: Install Nerdy dependencies
+        working-directory: nerdy
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Build with Hugo (Nerdy)
+        working-directory: nerdy
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          for lang in ru en; do
+            dest="${GITHUB_WORKSPACE}/public/nerdy"
+            [ "$lang" = "en" ] && dest="${GITHUB_WORKSPACE}/public/en/nerdy"
+            # первый проход создаёт hugo_stats.json, по нему Tailwind собирает CSS
+            hugo --config "hugo.yaml,hugo.${lang}.yaml" --renderToMemory
+            hugo --config "hugo.yaml,hugo.${lang}.yaml" --minify --gc --destination "$dest"
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

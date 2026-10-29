@@ -1,0 +1,47 @@
+defaultContentLanguage: ru
+baseURL: "https://ryabinin.pro/nerdy/"
+title: "Андрей Рябинин"
+locale: ru-RU
+params:
+  lang: ru
+  selfBase: /nerdy/
+  otherLang: EN
+  otherBase: /en/nerdy/
+  paperBase: /
+menus:
+  main:
+    - name: Обо мне
+      pageRef: /about
+      weight: 10
+    - name: Кейсы
+      pageRef: /posts
+      weight: 20
+module:
+  mounts:
+    - source: content/ru
+      target: content
+    - source: ../content/ru
+      target: content
+      files:
+        - about.md
+    - source: ../content/ru/projects
+      target: content/posts/work/itsm
+      files:
+        - project-glpi.md
+        - project-redmine.md
+    - source: ../content/ru/projects
+      target: content/posts/work/network
+      files:
+        - project-pcp.md
+        - project-mail.md
+    - source: ../content/ru/projects
+      target: content/posts/work/backup
+      files:
+        - project-databasys.md
+    - source: data/ru
+      target: data
+    - source: assets
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json

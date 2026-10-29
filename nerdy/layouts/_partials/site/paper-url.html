@@ -1,0 +1,12 @@
+{{- /* Адрес этой же страницы в теме PaperMod (основной версии сайта). Принимает страницу. */ -}}
+{{- $paper := site.Params.paperBase -}}
+{{- if eq .Kind "page" -}}
+  {{- if eq .Section "posts" -}}
+    {{- $paper = printf "%sprojects/%s/" site.Params.paperBase .File.TranslationBaseName -}}
+  {{- else -}}
+    {{- $paper = printf "%sabout/" site.Params.paperBase -}}
+  {{- end -}}
+{{- else if and (eq .Kind "section") (eq .Section "posts") -}}
+  {{- $paper = printf "%sprojects/" site.Params.paperBase -}}
+{{- end -}}
+{{- return $paper -}}

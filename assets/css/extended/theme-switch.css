@@ -1,0 +1,43 @@
+/* Переключатель тем (Paper / Nerdy) — плавающая «таблетка» слева внизу */
+.theme-switch {
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.25rem;
+    font-size: 13px;
+    line-height: 1;
+    background: color-mix(in srgb, var(--code-bg) 88%, transparent);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .25);
+}
+.theme-switch__label {
+    padding: 0 0.45rem 0 0.65rem;
+    color: var(--secondary);
+}
+.theme-switch__item {
+    display: block;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    color: var(--primary);
+    text-decoration: none;
+    transition: background-color .15s ease;
+}
+a.theme-switch__item:hover { background: var(--tertiary); }
+.theme-switch__item.is-active {
+    background: var(--tertiary);
+    font-weight: 600;
+}
+@media print { .theme-switch { display: none; } }
+
+/* на узких экранах подпись «Тема» скрываем, чтобы таблетка меньше перекрывала текст */
+@media (max-width: 1000px) {
+    .theme-switch__label { display: none; }
+    .theme-switch { left: .75rem; bottom: .75rem; }
+}

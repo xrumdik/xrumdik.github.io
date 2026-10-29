@@ -1,0 +1,16 @@
+user: guest
+host: portfolio
+directory: '~'
+window_title: guest@portfolio:~
+auto_command: about
+builtins:
+- name: clear
+  description: Очистить вывод терминала
+- name: whoami
+  description: Показать текущего пользователя
+- name: date
+  description: Показать дату
+- name: echo
+  description: Вывести текст
+- name: sudo
+  description: Попробовать повысить права

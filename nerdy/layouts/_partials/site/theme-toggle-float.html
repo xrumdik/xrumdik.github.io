@@ -1,0 +1,12 @@
+{{- /* Переключатель тем (Paper <-> Nerdy), языка (RU <-> EN) и светлой/тёмной схемы.
+       Темы — это две отдельные сборки сайта, поэтому переключение = ссылка на ту же страницу в другой теме. */ -}}
+{{- $self := site.Params.selfBase -}}
+{{- $rel := strings.TrimPrefix $self .RelPermalink -}}
+{{- $otherLang := printf "%s%s" site.Params.otherBase $rel -}}
+{{- $paper := partial "site/paper-url.html" . -}}
+{{- $btn := "flex h-9 shrink-0 items-center justify-center rounded-lg border border-slate-300 bg-white/95 px-3 font-mono text-xs text-slate-700 shadow-xl shadow-slate-300/30 backdrop-blur-md ring-1 ring-slate-900/5 transition-all hover:border-slate-400 hover:text-slate-950 active:scale-95 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-400 dark:shadow-black/30 dark:ring-white/10 dark:hover:border-slate-500 dark:hover:text-white" -}}
+<div class="fixed bottom-4 right-4 z-[80] flex items-center gap-2 sm:bottom-auto sm:right-6 sm:top-4 lg:right-8">
+  <a class="{{ $btn }}" href="{{ $otherLang }}" hreflang="{{ lower site.Params.otherLang }}" title="{{ cond (eq site.Params.lang "ru") "English" "Русский" }}">{{ site.Params.otherLang }}</a>
+  <a class="{{ $btn }}" href="{{ $paper }}" title="{{ cond (eq site.Params.lang "ru") "Тема сайта: PaperMod" "Site theme: PaperMod" }}">Paper</a>
+  {{ partial "components/theme-toggle.html" (dict "variant" "icon" "class" "shadow-xl shadow-slate-300/30 backdrop-blur-md ring-1 ring-slate-900/5 dark:shadow-black/30 dark:ring-white/10") }}
+</div>

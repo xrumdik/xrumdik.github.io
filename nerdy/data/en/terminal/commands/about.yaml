@@ -1,0 +1,15 @@
+name: about
+label: About
+description: Information about me
+quick: true
+weight: 10
+greeting: Hello!
+iam: I'm
+person_name: Andrey
+summary: I'm a system administrator and infrastructure engineer.
+details:
+- 'I build, secure and automate corporate IT environments: independent on-premise solutions that give companies full control over their data and keep IT costs down.'
+- Ready for complex technical challenges, IT infrastructure audits and remote collaboration.
+quote:
+  text: Make infrastructure reliable, predictable and secure.
+  author: Principle

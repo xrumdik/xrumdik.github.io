@@ -1,0 +1,54 @@
+profile:
+  name: Andrey Ryabinin
+  title: System Administrator
+  avatar: images/avatar.png
+  description: 'I maintain IT infrastructure: servers, networks and reliable services. On-premise solutions under your full control.'
+  status:
+    label: Status
+    value: Open to collaboration
+    preference_label: Format
+    preference: remote / infrastructure audit
+  links:
+  - icon: website
+    label: ryabinin.pro
+    url: https://ryabinin.pro/en/
+  - icon: github
+    label: github.com/xrumdik
+    url: https://github.com/xrumdik
+  - icon: linkedin
+    label: linkedin.com/in/andrey-r-97491084
+    url: https://www.linkedin.com/in/andrey-r-97491084/
+  - icon: mail
+    label: andrey@ryabinin.pro
+    url: mailto:andrey@ryabinin.pro
+sections:
+- id: profile-stats
+  type: stats
+  title: Profile Stats
+  items:
+  - label: Focus
+    value: On-Premise
+    accent: emerald
+  - label: Platform
+    value: Linux
+    accent: cyan
+  - label: Approach
+    value: Automation
+    accent: amber
+  - label: Security
+    value: Segmentation & audit
+    accent: purple
+- id: core-stack
+  type: tags
+  title: Core Stack
+  items:
+  - Linux
+  - Docker
+  - Kubernetes
+  - Proxmox
+  - Ansible
+  - Zabbix
+  - Nginx
+  - PostgreSQL
+  - pfSense
+  - Mailcow

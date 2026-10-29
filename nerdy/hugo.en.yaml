@@ -1,0 +1,47 @@
+defaultContentLanguage: en
+baseURL: "https://ryabinin.pro/en/nerdy/"
+title: "Andrey Ryabinin"
+locale: en-US
+params:
+  lang: en
+  selfBase: /en/nerdy/
+  otherLang: RU
+  otherBase: /nerdy/
+  paperBase: /en/
+menus:
+  main:
+    - name: About
+      pageRef: /about
+      weight: 10
+    - name: Cases
+      pageRef: /posts
+      weight: 20
+module:
+  mounts:
+    - source: content/en
+      target: content
+    - source: ../content/en
+      target: content
+      files:
+        - about.md
+    - source: ../content/en/projects
+      target: content/posts/work/itsm
+      files:
+        - project-glpi.md
+        - project-redmine.md
+    - source: ../content/en/projects
+      target: content/posts/work/network
+      files:
+        - project-pcp.md
+        - project-mail.md
+    - source: ../content/en/projects
+      target: content/posts/work/backup
+      files:
+        - project-databasys.md
+    - source: data/en
+      target: data
+    - source: assets
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json

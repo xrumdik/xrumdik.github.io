@@ -1,0 +1,7 @@
+id: recent-posts
+type: recent-posts
+icon: article
+title: Latest case studies
+limit: 5
+section: posts
+view_all_label: All case studies ->

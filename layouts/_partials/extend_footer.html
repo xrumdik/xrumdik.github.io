@@ -1,3 +1,6 @@
 {{- /* Просмотрщик фото (lightbox) — только на страницах, где есть фото из шорткода photo */ -}}
 {{- $js := resources.Get "js/lightbox.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- /* Переключатель тем Paper <-> Nerdy */ -}}
+{{- $ts := resources.Get "js/theme-switch.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $ts.RelPermalink }}" integrity="{{ $ts.Data.Integrity }}" defer></script>

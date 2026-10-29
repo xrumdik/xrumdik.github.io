@@ -1,0 +1,46 @@
+name: projects
+label: Cases
+description: Work case studies
+quick: true
+weight: 40
+items:
+- name: 'GLPI: from chaos to transparent ITIL'
+  type: Work
+  tech:
+  - GLPI
+  - ITIL
+  - Linux
+  description: 'Open Source helpdesk and asset management: tickets, inventory, software control.'
+  url: /en/nerdy/posts/work/itsm/project-glpi/
+- name: 'Redmine: unified projects & documentation hub'
+  type: Work
+  tech:
+  - Redmine
+  - On-Premise
+  - Linux
+  description: Project, task and policy management on your own servers.
+  url: /en/nerdy/posts/work/itsm/project-redmine/
+- name: 'pfSense: Captive Portal for corporate and guest Wi-Fi'
+  type: Work
+  tech:
+  - pfSense
+  - VLAN
+  - Captive Portal
+  description: Wireless segmentation with authorization for staff and guests.
+  url: /en/nerdy/posts/work/network/project-pcp/
+- name: 'Corporate email: securing your domain (SPF, DKIM, DMARC)'
+  type: Work
+  tech:
+  - SPF
+  - DKIM
+  - DMARC
+  description: Protecting the domain from sender spoofing and DNS record setup.
+  url: /en/nerdy/posts/work/network/project-mail/
+- name: 'Databasys: automated database backups'
+  type: Work
+  tech:
+  - Docker
+  - MySQL
+  - PostgreSQL
+  description: Consistent scheduled MySQL and PostgreSQL dumps.
+  url: /en/nerdy/posts/work/backup/project-databasys/

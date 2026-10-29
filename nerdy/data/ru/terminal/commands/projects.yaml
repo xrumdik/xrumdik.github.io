@@ -1,0 +1,46 @@
+name: projects
+label: Кейсы
+description: Рабочие кейсы
+quick: true
+weight: 40
+items:
+- name: 'GLPI: от хаоса к прозрачному ITIL'
+  type: Работа
+  tech:
+  - GLPI
+  - ITIL
+  - Linux
+  description: 'Helpdesk и учёт активов на Open Source: заявки, инвентаризация, контроль ПО.'
+  url: /nerdy/posts/work/itsm/project-glpi/
+- name: 'Redmine: единый центр проектов и документации'
+  type: Работа
+  tech:
+  - Redmine
+  - On-Premise
+  - Linux
+  description: Управление проектами, задачами и регламентами на собственных серверах.
+  url: /nerdy/posts/work/itsm/project-redmine/
+- name: 'pfSense: Captive Portal для корпоративной и гостевой Wi-Fi'
+  type: Работа
+  tech:
+  - pfSense
+  - VLAN
+  - Captive Portal
+  description: Сегментация беспроводной сети и авторизация сотрудников и гостей.
+  url: /nerdy/posts/work/network/project-pcp/
+- name: 'Корпоративная почта: защита домена (SPF, DKIM, DMARC)'
+  type: Работа
+  tech:
+  - SPF
+  - DKIM
+  - DMARC
+  description: Защита домена от подмены отправителя и настройка DNS-записей.
+  url: /nerdy/posts/work/network/project-mail/
+- name: 'Databasys: автоматизация бэкапа баз данных'
+  type: Работа
+  tech:
+  - Docker
+  - MySQL
+  - PostgreSQL
+  description: Консистентные дампы MySQL и PostgreSQL по расписанию.
+  url: /nerdy/posts/work/backup/project-databasys/
