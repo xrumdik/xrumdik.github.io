@@ -72,3 +72,40 @@
     }
     .logo-switches { margin-left: 0 !important; margin-right: 0 !important; }
 }
+
+/* ===== Значки соцсетей в шапке + компактный блок приветствия ===== */
+
+/* на главной значки в тексте больше не нужны — они в шапке */
+.home-info .social-icons { display: none; }
+
+.logo-switches .social-icons {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.logo-switches .social-icons a {
+    padding: 6px;
+    line-height: 1;
+}
+.logo-switches .social-icons a svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* убираем пустое место между приветствием и карточками */
+.first-entry {
+    min-height: 0 !important;
+    margin: calc(var(--gap) * 1.5) 0 var(--gap) 0 !important;
+}
+
+/* Телефон: значки отдельной строкой под логотипом, по центру */
+@media (max-width: 768px) {
+    .logo-switches { display: contents !important; }
+    .logo-switches .social-icons {
+        order: 3;
+        flex-basis: 100%;
+        justify-content: center;
+        margin: 0.2rem 0 0 0;
+    }
+    .first-entry { margin-top: var(--gap) !important; }
+}
