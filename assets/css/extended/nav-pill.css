@@ -45,14 +45,18 @@
 .menu li:has(.active) a { background: var(--tertiary); }
 
 /* ПК: шапка той же ширины, что и контент.
-   Логотип выровнен по левому краю текста, меню — по правому краю */
+   Логотип — у левого края текста, меню — по центру, переключатели — у правого края */
 @media (min-width: 769px) {
-    .header-nav { max-width: calc(var(--main-width) + var(--gap) * 2); }
+    .header-nav {
+        position: relative;
+        max-width: calc(var(--main-width) + var(--gap) * 2);
+    }
     .logo a { padding-left: 0; }
-    .menu {
-        left: auto;
-        transform: none;
-        right: max(var(--gap), calc(50% - var(--main-width) / 2));
+    .logo-switches {
+        position: absolute;
+        right: var(--gap);
+        top: 0;
+        margin: 0 !important;
     }
 }
 
@@ -61,4 +65,10 @@
     .menu { top: 6px; }
     .menu a { padding: 0.4rem 0.8rem; }
     .header-nav { padding-top: 3.4rem !important; }
+    /* логотип и переключатели — по центру */
+    .logo {
+        justify-content: center !important;
+        text-align: center;
+    }
+    .logo-switches { margin-left: 0 !important; margin-right: 0 !important; }
 }
