@@ -1,0 +1,42 @@
+/* Меню в виде «таблетки» (pill) с подсветкой пункта.
+   Файл называется nav-pill.css, чтобы подключаться ПОСЛЕ mobile-nav-fix.css */
+
+.menu {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.3rem !important;
+    column-gap: 0.15rem !important;
+    width: fit-content;
+    line-height: normal !important;
+    align-self: center;
+}
+
+.menu li { margin: 0; }
+
+.menu a {
+    display: block;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    font-size: 15px;
+    line-height: 1.2;
+    transition: background-color .15s ease, color .15s ease;
+}
+
+.menu a:hover {
+    background: var(--tertiary);
+}
+
+/* активный пункт: вместо подчёркивания — заливка */
+.menu .active {
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu li:has(.active) a {
+    background: var(--tertiary);
+}
+
+@media (max-width: 768px) {
+    .menu { margin-top: .2rem !important; }
+    .menu a { padding: 0.4rem 0.8rem; }
+}
