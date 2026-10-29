@@ -1,15 +1,27 @@
-/* Меню в виде «таблетки» (pill) с подсветкой пункта.
+/* Меню в виде «таблетки» (pill): по центру страницы и закреплено при прокрутке.
    Файл называется nav-pill.css, чтобы подключаться ПОСЛЕ mobile-nav-fix.css */
 
 .menu {
-    background: var(--code-bg);
-    border: 1px solid var(--border);
-    border-radius: 999px;
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+
+    width: max-content;
+    flex-wrap: nowrap !important;    /* перебивает wrap из mobile-nav-fix.css */
+    max-width: calc(100vw - 1.5rem);
+    margin: 0 !important;            /* перебивает margin-left из mobile-nav-fix.css */
     padding: 0.3rem !important;
     column-gap: 0.15rem !important;
-    width: fit-content;
     line-height: normal !important;
-    align-self: center;
+
+    background: color-mix(in srgb, var(--code-bg) 88%, transparent);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .25);
 }
 
 .menu li { margin: 0; }
@@ -20,23 +32,33 @@
     border-radius: 999px;
     font-size: 15px;
     line-height: 1.2;
-    transition: background-color .15s ease, color .15s ease;
+    transition: background-color .15s ease;
 }
 
-.menu a:hover {
-    background: var(--tertiary);
-}
+.menu a:hover { background: var(--tertiary); }
 
-/* активный пункт: вместо подчёркивания — заливка */
+/* активный пункт: заливка вместо подчёркивания */
 .menu .active {
     text-decoration: none;
     font-weight: 600;
 }
-.menu li:has(.active) a {
-    background: var(--tertiary);
+.menu li:has(.active) a { background: var(--tertiary); }
+
+/* ПК: шапка той же ширины, что и контент.
+   Логотип выровнен по левому краю текста, меню — по правому краю */
+@media (min-width: 769px) {
+    .header-nav { max-width: calc(var(--main-width) + var(--gap) * 2); }
+    .logo a { padding-left: 0; }
+    .menu {
+        left: auto;
+        transform: none;
+        right: max(var(--gap), calc(50% - var(--main-width) / 2));
+    }
 }
 
+/* Телефон: меню прижато к верху по центру, логотип и переключатели — ниже него */
 @media (max-width: 768px) {
-    .menu { margin-top: .2rem !important; }
+    .menu { top: 6px; }
     .menu a { padding: 0.4rem 0.8rem; }
+    .header-nav { padding-top: 3.4rem !important; }
 }
