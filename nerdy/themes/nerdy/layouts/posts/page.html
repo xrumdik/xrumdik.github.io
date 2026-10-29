@@ -66,7 +66,7 @@
   {{ $currentSidebarSubjectID = $currentSidebarSubject | urlize }}
   {{ $currentSidebarTopicID := printf "subject-%s-topic-%s" ($currentSidebarSubject | urlize) ($currentSidebarTopic | urlize) }}
   {{ $headingPath := slice
-    (dict "tag" "a" "label" "guest@portfolio" "href" (relURL "/") "class" "nerdy-muted transition-colors hover:text-slate-950 hover:underline dark:hover:text-white")
+    (dict "tag" "a" "label" site.Title "href" site.Home.RelPermalink "class" "nerdy-muted transition-colors hover:text-slate-950 hover:underline dark:hover:text-white")
     (dict "label" ":")
     (dict "tag" "a" "label" (printf "~/%s" $section) "href" (relURL (printf "%s/" $section)) "class" "text-accent-cyan transition-colors hover:underline")
     (dict "label" "/")

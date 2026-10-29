@@ -26,5 +26,9 @@ hugo server --config hugo.yaml,hugo.ru.yaml
 ```
 
 ## Правки в теме
-Тема лежит в `themes/nerdy` (скопирована, не подмодуль). Единственная правка оригинала:
-`assets/js/main.js` — `focus({ preventScroll: true })`, чтобы на телефоне страница не прокручивалась к терминалу при загрузке.
+Тема лежит в `themes/nerdy` (скопирована, не подмодуль) и немного изменена:
+- `assets/js/main.js` — `focus({ preventScroll: true })` (на телефоне страница не прокручивалась к терминалу) и сообщения терминала берутся из `data/<язык>/terminal/config.yaml` (`messages`).
+- `layouts/posts/section.html`, `layouts/posts/page.html` — «хлебные крошки» ведут на главную Nerdy, а не на корень домена.
+- `layouts/_partials/posts/index/content.html` — убран блок «Post Serieses».
+- Надписи интерфейса переводятся через `layouts/_partials/site/t.html` (русский только в RU-версии, EN остаётся как был): `baseof.html`, `page.html`, `terminal.html`, `posts/index/recent.html`, `posts/index/table.html`, `posts/components/{heading,navigation,sidebar,toc}.html`.
+- `layouts/_partials/home/sidebar/profile.html` — круглый аватар без квадратной подложки.

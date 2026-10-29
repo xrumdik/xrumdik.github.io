@@ -46,7 +46,7 @@
         {{ with $readingTime }}
           <div class="flex items-center gap-2">
             {{ partial "components/icon.html" (dict "name" "document" "class" "h-4 w-4 text-slate-600 dark:text-slate-500") }}
-            <span>{{ . }} min read</span>
+            <span>{{ . }} {{ partial "site/t.html" "min_read" }}</span>
           </div>
         {{ end }}
         {{ with $tags }}

@@ -14,3 +14,18 @@ builtins:
   description: Вывести текст
 - name: sudo
   description: Попробовать повысить права
+quick_label: 'Быстрые_команды:'
+clear_label: Очистить
+help_title: 'Доступные команды:'
+messages:
+  locale: ru-RU
+  initializing: Инициализация системы...
+  loading: 'Загрузка модулей профиля: OK'
+  restored: Сессия восстановлена
+  type_pre: Введите
+  type_post: ', чтобы увидеть список команд.'
+  dark: тёмная
+  light: светлая
+  theme_switched: '[Система] Тема переключена: {mode}.'
+  sudo: Пользователя guest нет в файле sudoers. Об этом инциденте будет сообщено.
+  not_found: 'bash: {cmd}: команда не найдена. Введите ''help'' для списка команд.'

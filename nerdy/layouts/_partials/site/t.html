@@ -1,0 +1,29 @@
+{{- /* Переводы надписей интерфейса темы. Вызов: {{ partial "site/t.html" "ключ" }}
+       Язык берётся из params.lang (hugo.ru.yaml / hugo.en.yaml). Нет перевода — английский. */ -}}
+{{- $lang := site.Params.lang | default "en" -}}
+{{- $d := dict
+  "skip"          (dict "ru" "Перейти к основному содержимому" "en" "Skip to main content")
+  "recent_posts"  (dict "ru" "Последние кейсы" "en" "Recent Posts")
+  "all_posts"     (dict "ru" "Все кейсы" "en" "All Posts")
+  "min_read"      (dict "ru" "мин чтения" "en" "min read")
+  "read"          (dict "ru" "Читать" "en" "Read")
+  "index"         (dict "ru" "список" "en" "Index")
+  "posted_at"     (dict "ru" "Дата" "en" "Posted At")
+  "reading_time"  (dict "ru" "Время чтения" "en" "Reading Time")
+  "title"         (dict "ru" "Название" "en" "Title")
+  "tags"          (dict "ru" "Теги" "en" "Tags")
+  "no_posts"      (dict "ru" "Пока нет кейсов." "en" "No posts found yet.")
+  "per_page"      (dict "ru" "на странице" "en" "posts per page")
+  "page"          (dict "ru" "Страница" "en" "Page")
+  "of"            (dict "ru" "из" "en" "of")
+  "prev"          (dict "ru" "Назад" "en" "Prev")
+  "next"          (dict "ru" "Вперёд" "en" "Next")
+  "prev_post"     (dict "ru" "Предыдущий кейс" "en" "Previous Post")
+  "next_post"     (dict "ru" "Следующий кейс" "en" "Next Post")
+  "on_this_page"  (dict "ru" "НА ЭТОЙ СТРАНИЦЕ" "en" "ON THIS PAGE")
+  "explorer"      (dict "ru" "~/ПРОВОДНИК" "en" "~/WORKSPACE_EXPLORER")
+  "page_eyebrow"  (dict "ru" "~/страница" "en" "~/page")
+  "na"            (dict "ru" "—" "en" "n/a")
+-}}
+{{- $e := index $d . | default dict -}}
+{{- return (index $e $lang | default (index $e "en") | default .) -}}

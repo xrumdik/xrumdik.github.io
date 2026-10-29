@@ -8,7 +8,7 @@
     data-label="Help"
     data-description="List available commands"
     data-weight="0"
-  >{{ partial "terminal/commands/help.html" (dict "commands" $commands "builtins" $builtins) }}</template>
+  >{{ partial "terminal/commands/help.html" (dict "commands" $commands "builtins" $builtins "title" ($config.help_title | default "Available commands:")) }}</template>
 
   <template
     data-terminal-command="whoami"

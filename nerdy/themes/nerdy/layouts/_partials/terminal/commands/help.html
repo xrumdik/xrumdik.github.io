@@ -1,4 +1,4 @@
-<pre class="font-mono whitespace-pre-wrap leading-relaxed">Available commands:
+<pre class="font-mono whitespace-pre-wrap leading-relaxed">{{ .title | default "Available commands:" }}
 {{- range sort .commands "weight" }}
   <span class="font-bold text-accent-cyan">{{ .name }}</span>{{ strings.Repeat (sub 12 (len .name)) " " }}<span class="nerdy-muted">- {{ .description }}</span>
 {{- end }}

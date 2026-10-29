@@ -1,7 +1,7 @@
 {{- $pages := sort (.pages | default slice) "Date" "desc" -}}
 
 <section>
-  {{ partial "components/section-heading.html" (dict "icon" "article" "title" "Recent Posts" "iconClass" "h-5 w-5") }}
+  {{ partial "components/section-heading.html" (dict "icon" "article" "title" (partial "site/t.html" "recent_posts") "iconClass" "h-5 w-5") }}
 
   <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
     {{ range first 3 $pages }}
@@ -15,12 +15,12 @@
           {{ with .Summary }}<p class="mb-4 line-clamp-3 text-xs leading-5 nerdy-muted">{{ . | plainify }}</p>{{ end }}
         </div>
         <div class="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 font-mono text-[11px] dark:border-slate-700/50">
-          <span class="nerdy-muted-soft">{{ .ReadingTime }} min read</span>
-          <span class="flex items-center gap-1 text-accent-cyan">Read <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
+          <span class="nerdy-muted-soft">{{ .ReadingTime }} {{ partial "site/t.html" "min_read" }}</span>
+          <span class="flex items-center gap-1 text-accent-cyan">{{ partial "site/t.html" "read" }} <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
         </div>
       </a>
     {{ else }}
-      {{ partial "components/empty-state.html" (dict "class" "md:col-span-3" "message" "No posts found yet.") }}
+      {{ partial "components/empty-state.html" (dict "class" "md:col-span-3" "message" (partial "site/t.html" "no_posts")) }}
     {{ end }}
   </div>
 </section>
