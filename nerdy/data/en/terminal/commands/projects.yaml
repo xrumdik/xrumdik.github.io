@@ -4,6 +4,14 @@ description: Work case studies
 quick: true
 weight: 40
 items:
+- name: Migrating a Website from WordPress to Astro
+  type: Work
+  tech:
+  - Astro
+  - WordPress
+  - Markdown
+  description: Moving a corporate site to a static one, faster, more secure and easier to maintain.
+  url: /en/nerdy/posts/work/web/project-astro/
 - name: 'GLPI: from chaos to transparent ITIL'
   type: Work
   tech:

@@ -4,6 +4,14 @@ description: Рабочие кейсы
 quick: true
 weight: 40
 items:
+- name: Перенос сайта с WordPress на Astro
+  type: Работа
+  tech:
+  - Astro
+  - WordPress
+  - Markdown
+  description: Миграция корпоративного сайта на статический: быстрее, безопаснее, проще в обслуживании.
+  url: /nerdy/posts/work/web/project-astro/
 - name: 'GLPI: от хаоса к прозрачному ITIL'
   type: Работа
   tech:

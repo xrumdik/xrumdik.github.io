@@ -1,4 +1,5 @@
-{{- $pages := .pages -}}
+{{- /* новые кейсы сверху */ -}}
+{{- $pages := sort (.pages | default slice) "Date" "desc" -}}
 {{- $count := len $pages -}}
 {{- $tablePath := .tablePath | default "./" -}}
 {{- $pageCount := div (add $count 9) 10 -}}

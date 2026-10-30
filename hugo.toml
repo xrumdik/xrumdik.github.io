@@ -9,7 +9,7 @@ buildFuture = false
 buildExpired = false
 
 [pagination]
-  pagerSize = 3
+  pagerSize = 4
 
 [minify]
   disableXML = true
