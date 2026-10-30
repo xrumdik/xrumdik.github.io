@@ -13,7 +13,8 @@
   var topics = {
     'project-glpi': 'itsm', 'project-redmine': 'itsm',
     'project-pcp': 'network', 'project-mail': 'network',
-    'project-databasys': 'backup'
+    'project-databasys': 'backup',
+    'project-astro': 'web'
   };
 
   var target = base + 'nerdy/';

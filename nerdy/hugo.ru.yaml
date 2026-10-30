@@ -38,6 +38,10 @@ module:
       target: content/posts/work/backup
       files:
         - project-databasys.md
+    - source: ../content/ru/projects
+      target: content/posts/work/web
+      files:
+        - project-astro.md
     - source: data/ru
       target: data
     - source: assets
