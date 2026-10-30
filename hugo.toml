@@ -49,7 +49,7 @@ buildExpired = false
     [languages.ru.params]
       title = "Андрей Рябинин"
       description = "Портфолио системного администратора — проекты, навыки, контакты"
-      keywords = ["портфолио", "разработчик", "проекты"]
+      keywords = ["портфолио", "системный администратор", "devops"]
       author = "Андрей Рябинин"
       mainSections = ["projects"]
 
@@ -97,7 +97,7 @@ buildExpired = false
     [languages.en.params]
       title = "Andrey Ryabinin"
       description = "System administrator portfolio — projects, skills, contact"
-      keywords = ["portfolio", "developer", "projects"]
+      keywords = ["portfolio", "System administrator", "devops"]
       author = "Andrey Ryabinin"
       mainSections = ["projects"]
 

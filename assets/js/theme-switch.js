@@ -27,8 +27,22 @@
   box.setAttribute('role', 'group');
   box.setAttribute('aria-label', en ? 'Site theme' : 'Тема сайта');
   box.innerHTML =
-    '<span class="theme-switch__label">' + (en ? 'Theme' : 'Тема') + '</span>' +
     '<span class="theme-switch__item is-active" aria-current="true">Paper</span>' +
     '<a class="theme-switch__item" href="' + target + '">Nerdy</a>';
   document.body.appendChild(box);
+
+  // На телефоне: прячем таблетку при прокрутке вниз, показываем при прокрутке вверх
+  // и в самом конце страницы (там под ней оставлено место).
+  var last = window.pageYOffset, ticking = false;
+  function update() {
+    var y = window.pageYOffset;
+    var atBottom = window.innerHeight + y >= document.documentElement.scrollHeight - 8;
+    if (atBottom || y < 80 || y < last - 4) box.classList.remove('is-hidden');
+    else if (y > last + 4) box.classList.add('is-hidden');
+    last = y;
+    ticking = false;
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }, { passive: true });
 })();

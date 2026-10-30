@@ -1,0 +1,18 @@
+/* Свои стили поверх темы Nerdy (подключаются темой автоматически) */
+
+/* Телефон: группа кнопок (EN / Paper / тема) плавает внизу по центру.
+   При прокрутке вниз она уезжает, при прокрутке вверх возвращается;
+   в конце страницы под ней оставлено место, чтобы не закрывать текст. */
+.nerdy-float-hidden {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+@media (max-width: 639px) {
+  [x-data] > .nerdy-float-hidden,
+  .nerdy-float-hidden {
+    transform: translateY(4.5rem);
+    opacity: 0;
+  }
+  #main-content {
+    padding-bottom: 4.5rem;
+  }
+}
