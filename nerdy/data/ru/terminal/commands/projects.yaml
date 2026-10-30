@@ -10,7 +10,7 @@ items:
   - Astro
   - WordPress
   - Markdown
-  description: Миграция корпоративного сайта на статический: быстрее, безопаснее, проще в обслуживании.
+  description:'Миграция корпоративного сайта на статический: быстрее, безопаснее, проще в обслуживании.'
   url: /nerdy/posts/work/web/project-astro/
 - name: 'GLPI: от хаоса к прозрачному ITIL'
   type: Работа
