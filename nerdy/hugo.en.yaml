@@ -42,6 +42,11 @@ module:
       target: content/posts/work/web
       files:
         - project-astro.md
+    - source: ../content/en/projects
+      target: content/posts/work/security
+      files:
+        - project-laps.md
+        - project-linux-updates.md
     - source: data/en
       target: data
     - source: assets

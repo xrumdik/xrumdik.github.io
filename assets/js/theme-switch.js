@@ -14,7 +14,9 @@
     'project-glpi': 'itsm', 'project-redmine': 'itsm',
     'project-pcp': 'network', 'project-mail': 'network',
     'project-databasys': 'backup',
-    'project-astro': 'web'
+    'project-astro': 'web',
+    'project-laps': 'security',
+    'project-linux-updates': 'security'
   };
 
   var target = base + 'nerdy/';

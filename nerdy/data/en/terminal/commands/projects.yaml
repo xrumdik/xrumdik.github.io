@@ -4,6 +4,23 @@ description: Work case studies
 quick: true
 weight: 40
 items:
+- name: Automatic updates for Linux
+  type: Work
+  tech:
+  - Debian
+  - Ubuntu
+  - AlmaLinux
+  - Zabbix
+  description: 'Security updates install themselves, and Zabbix reports when a server needs a reboot.'
+  url: /en/nerdy/posts/work/security/project-linux-updates/
+- name: 'Windows LAPS: unique local administrator passwords'
+  type: Work
+  tech:
+  - Windows Server
+  - Active Directory
+  - PowerShell
+  description: 'Every PC has its own local administrator password: it rotates automatically and is stored encrypted in AD.'
+  url: /en/nerdy/posts/work/security/project-laps/
 - name: Migrating a Website from WordPress to Astro
   type: Work
   tech:

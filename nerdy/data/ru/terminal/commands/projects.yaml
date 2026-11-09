@@ -4,13 +4,30 @@ description: Рабочие кейсы
 quick: true
 weight: 40
 items:
+- name: Автоматические обновления ОС Linux
+  type: Работа
+  tech:
+  - Debian
+  - Ubuntu
+  - AlmaLinux
+  - Zabbix
+  description: 'Обновления безопасности ставятся сами, а Zabbix сообщает, когда серверу нужна перезагрузка.'
+  url: /nerdy/posts/work/security/project-linux-updates/
+- name: 'Windows LAPS: уникальные пароли локальных администраторов'
+  type: Работа
+  tech:
+  - Windows Server
+  - Active Directory
+  - PowerShell
+  description: 'У каждого ПК свой пароль локального администратора: он сам меняется и хранится в AD в зашифрованном виде.'
+  url: /nerdy/posts/work/security/project-laps/
 - name: Перенос сайта с WordPress на Astro
   type: Работа
   tech:
   - Astro
   - WordPress
   - Markdown
-  description:'Миграция корпоративного сайта на статический: быстрее, безопаснее, проще в обслуживании.'
+  description: 'Миграция корпоративного сайта на статический: быстрее, безопаснее, проще в обслуживании.'
   url: /nerdy/posts/work/web/project-astro/
 - name: 'GLPI: от хаоса к прозрачному ITIL'
   type: Работа
