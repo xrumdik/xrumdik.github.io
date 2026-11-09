@@ -12,15 +12,6 @@ items:
   - PowerShell
   description: 'У каждого ПК свой пароль локального администратора: он сам меняется и хранится в AD в зашифрованном виде.'
   url: /nerdy/posts/work/security/project-laps/
-- name: Автоматические обновления ОС Linux
-  type: Работа
-  tech:
-  - Debian
-  - Ubuntu
-  - AlmaLinux
-  - Zabbix
-  description: 'Обновления безопасности ставятся сами, а Zabbix сообщает, когда серверу нужна перезагрузка.'
-  url: /nerdy/posts/work/security/project-linux-updates/
 - name: Перенос сайта с WordPress на Astro
   type: Работа
   tech:
@@ -69,3 +60,12 @@ items:
   - PostgreSQL
   description: Консистентные дампы MySQL и PostgreSQL по расписанию.
   url: /nerdy/posts/work/backup/project-databasys/
+- name: Автоматические обновления ОС Linux
+  type: Работа
+  tech:
+  - Debian
+  - Ubuntu
+  - AlmaLinux
+  - Zabbix
+  description: 'Обновления безопасности ставятся сами, а Zabbix сообщает, когда серверу нужна перезагрузка.'
+  url: /nerdy/posts/work/security/project-linux-updates/

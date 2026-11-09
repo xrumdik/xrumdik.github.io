@@ -12,15 +12,6 @@ items:
   - PowerShell
   description: 'Every PC has its own local administrator password: it rotates automatically and is stored encrypted in AD.'
   url: /en/nerdy/posts/work/security/project-laps/
-- name: Automatic updates for Linux
-  type: Work
-  tech:
-  - Debian
-  - Ubuntu
-  - AlmaLinux
-  - Zabbix
-  description: 'Security updates install themselves, and Zabbix reports when a server needs a reboot.'
-  url: /en/nerdy/posts/work/security/project-linux-updates/
 - name: Migrating a Website from WordPress to Astro
   type: Work
   tech:
@@ -69,3 +60,12 @@ items:
   - PostgreSQL
   description: Consistent scheduled MySQL and PostgreSQL dumps.
   url: /en/nerdy/posts/work/backup/project-databasys/
+- name: Automatic updates for Linux
+  type: Work
+  tech:
+  - Debian
+  - Ubuntu
+  - AlmaLinux
+  - Zabbix
+  description: 'Security updates install themselves, and Zabbix reports when a server needs a reboot.'
+  url: /en/nerdy/posts/work/security/project-linux-updates/

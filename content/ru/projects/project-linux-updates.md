@@ -1,6 +1,6 @@
 ---
 title: "Автоматические обновления ОС Linux"
-date: 2026-08-08
+date: 2026-08-01
 summary: "Linux, Debian, Ubuntu, AlmaLinux, Rocky Linux, Zabbix."
 ---
 
