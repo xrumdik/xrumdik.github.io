@@ -4,6 +4,14 @@ description: Рабочие кейсы
 quick: true
 weight: 40
 items:
+- name: 'Windows LAPS: уникальные пароли локальных администраторов'
+  type: Работа
+  tech:
+  - Windows Server
+  - Active Directory
+  - PowerShell
+  description: 'У каждого ПК свой пароль локального администратора: он сам меняется и хранится в AD в зашифрованном виде.'
+  url: /nerdy/posts/work/security/project-laps/
 - name: Автоматические обновления ОС Linux
   type: Работа
   tech:
@@ -13,14 +21,6 @@ items:
   - Zabbix
   description: 'Обновления безопасности ставятся сами, а Zabbix сообщает, когда серверу нужна перезагрузка.'
   url: /nerdy/posts/work/security/project-linux-updates/
-- name: 'Windows LAPS: уникальные пароли локальных администраторов'
-  type: Работа
-  tech:
-  - Windows Server
-  - Active Directory
-  - PowerShell
-  description: 'У каждого ПК свой пароль локального администратора: он сам меняется и хранится в AD в зашифрованном виде.'
-  url: /nerdy/posts/work/security/project-laps/
 - name: Перенос сайта с WordPress на Astro
   type: Работа
   tech:
