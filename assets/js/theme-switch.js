@@ -16,7 +16,9 @@
     'project-databasys': 'backup',
     'project-astro': 'web',
     'project-laps': 'security',
-    'project-linux-updates': 'security'
+    'project-linux-updates': 'security',
+    'project-keycloak': 'security',
+    'project-ansible': 'security'
   };
 
   var target = base + 'nerdy/';

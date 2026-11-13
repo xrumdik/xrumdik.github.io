@@ -4,6 +4,23 @@ description: Work case studies
 quick: true
 weight: 40
 items:
+- name: Administration with Ansible
+  type: Work
+  tech:
+  - Ansible
+  - Linux
+  - Windows Server
+  description: 'Server updates in one way: preview, install and reboot only where needed.'
+  url: /en/nerdy/posts/work/security/project-ansible/
+- name: 'Keycloak: single sign-on for web applications'
+  type: Work
+  tech:
+  - Keycloak
+  - SSO
+  - Nextcloud
+  - Mailcow
+  description: 'One sign-in and two-factor protection for all applications on an open source solution.'
+  url: /en/nerdy/posts/work/security/project-keycloak/
 - name: 'Windows LAPS: unique local administrator passwords'
   type: Work
   tech:

@@ -15,9 +15,10 @@ Ready for complex technical challenges, auditing current IT infrastructure, and 
 *   **🐳 Containerization and orchestration:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
 *   **🔁 CI/CD and GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
 *   **🌐 Networking:** VLAN segmentation, Aruba HPE, Zyxel, VPN (OpenVPN/IPsec), pfSense, firewalld, UFW
-*   **🛡 Information Security:** DLP systems, CrowdSec, Fail2ban, Enterprise Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
+*   **🛡 Information Security:** DLP systems, CrowdSec, Fail2ban, Snort (IDS/IPS), Enterprise Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
 *   **🏗 Infrastructure:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI, NFS, FTP
 *   **🕸 Web Servers & Databases:** Nginx, Apache (LAMP / LEMP stacks), PostgreSQL, MySQL, MS SQL Server
+*   **🌍 Websites & Hosting:** Hugo, Astro, CloudCannon, Plesk, WordPress, GitHub Pages, Cloudflare
 *   **🏢 Corporate Services (On-Premise):** Nextcloud, Mailcow, Mattermost
 *   **📊 Monitoring:** Zabbix, Grafana, Prometheus
 *   **⚙️ Automation & Version Control:** Bash, PowerShell, Ansible, Git, GitHub

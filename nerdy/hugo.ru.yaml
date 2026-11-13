@@ -47,6 +47,8 @@ module:
       files:
         - project-laps.md
         - project-linux-updates.md
+        - project-keycloak.md
+        - project-ansible.md
     - source: data/ru
       target: data
     - source: assets

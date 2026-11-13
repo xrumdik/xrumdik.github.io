@@ -39,6 +39,7 @@ categories:
   - DLP
   - CrowdSec
   - Fail2ban
+  - Snort
   - Kaspersky
   - Symantec
   - Trivy
@@ -60,6 +61,15 @@ categories:
   - PostgreSQL
   - MySQL
   - MS SQL Server
+- key: websites
+  items:
+  - Hugo
+  - Astro
+  - CloudCannon
+  - Plesk
+  - WordPress
+  - GitHub Pages
+  - Cloudflare
 - key: services
   items:
   - Nextcloud

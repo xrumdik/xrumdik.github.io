@@ -15,9 +15,10 @@ hidemeta: true
 *   **🐳 Контейнеризация и оркестрация:** Docker (multi-stage builds), containerd, Kubernetes, Calico (CNI), Helm
 *   **🔁 CI/CD и GitOps:** GitHub Actions, Argo CD, Kustomize, GitOps
 *   **🌐 Сети:** Сегментация VLAN, Aruba HPE, Zyxel, VPN (OpenVPN/IPsec), pfSense, firewalld, UFW
-*   **🛡 Информационная безопасность:** DLP-системы, CrowdSec, Fail2ban, Корпоративные решения Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
+*   **🛡 Информационная безопасность:** DLP-системы, CrowdSec, Fail2ban, Snort (IDS/IPS), Корпоративные решения Endpoint Security (Kaspersky, Symantec), Trivy (SCA/IaC/images), GitHub CodeQL (SAST), Kubernetes Pod Security (securityContext, RBAC)
 *   **🏗 Инфраструктура:** Active Directory, DNS, DHCP, GPO, WSUS, RADIUS, PKI, NFS, FTP
 *   **🕸 Web-серверы и СУБД:** Nginx, Apache (стеки LAMP / LEMP), PostgreSQL, MySQL, MS SQL Server
+*   **🌍 Сайты и хостинг:** Hugo, Astro, CloudCannon, Plesk, WordPress, GitHub Pages, Cloudflare
 *   **🏢 Корпоративные сервисы (On-Premise):** Nextcloud, Mailcow, Mattermost
 *   **📊 Мониторинг:** Zabbix, Grafana, Prometheus
 *   **⚙️ Автоматизация и контроль версий:** Bash, PowerShell, Ansible, Git, GitHub

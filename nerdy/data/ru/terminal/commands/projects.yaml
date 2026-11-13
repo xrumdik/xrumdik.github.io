@@ -4,6 +4,23 @@ description: Рабочие кейсы
 quick: true
 weight: 40
 items:
+- name: Администрирование с Ansible
+  type: Работа
+  tech:
+  - Ansible
+  - Linux
+  - Windows Server
+  description: 'Обновление серверов одним способом: просмотр, установка и перезагрузка только там, где нужно.'
+  url: /nerdy/posts/work/security/project-ansible/
+- name: 'Keycloak: единый вход для веб-приложений'
+  type: Работа
+  tech:
+  - Keycloak
+  - SSO
+  - Nextcloud
+  - Mailcow
+  description: 'Один вход и двухфакторная защита для всех приложений на открытом решении.'
+  url: /nerdy/posts/work/security/project-keycloak/
 - name: 'Windows LAPS: уникальные пароли локальных администраторов'
   type: Работа
   tech:
